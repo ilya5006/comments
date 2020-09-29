@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #eeeeee;
+
+}
+
+body hr {
+    width: 80%;
+    height: 1px;
+
+    margin: 20px 0px 20px 110px;
+
+    background-color: #d4d4d4;
+    border: none;
+}
+
+header {
+    background-image: url('../img/header.png');
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 30px 100px 25px 100px;
+}
+
+footer {
+    background-color: #f9f9f9;
+
+    display: flex;
+    padding: 20px 0px 15px 100px;
+
+    margin-top: 55px;
+
+    align-items: flex-end;
+}
+
+.phone_number, .email, .address, .comment_username {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#comments_header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+    font-size: 50px;
+}
+
+.comment {
+    margin-top: 20px;
+}
+
+.comment_username {
+    width: 100px;
+}
+
+.comment_text, .comment_time-info {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.comment_text {
+    margin-top: 10px;
+}
+
+#comments, #comment_form {
+    padding-left: 110px;
+}
+
+.comment_user-info {
+    display: flex;
+}
+
+.comment_time-info {
+    margin-left: 40px;
+}
+
+#leave_comment {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+#comment_form form {
+    margin-top: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+#comment_form form p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+#comment_form form input, #comment_form form textarea {
+    margin-top: 10px;
+}
+
+#comment_form form input[name="username"] {
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+
+    padding: 10px 20px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+#comment_form form textarea {
+    border: 2px solid black;
+    border-radius: 5px;
+
+    resize: none;
+
+    background-color: rgba(0, 0, 0, 0);
+
+    padding: 10px;
+
+    font-size: 20px;
+
+    height: 200px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+#comment_form form input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0);
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+    font-size: 18px;
+
+    align-self: flex-end;
+
+    height: 45px;
+    width: 135px;
+
+    cursor: pointer;
+}
+
+#left-header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#right-footer-wrapper {
+    margin-left: 35px;
+}
+
+#phone_email_address .email, #phone_email_address .address {
+    text-decoration: underline;
+}
+
+#copyright {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
